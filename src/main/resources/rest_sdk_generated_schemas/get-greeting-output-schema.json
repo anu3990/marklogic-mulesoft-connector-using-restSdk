@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$ref": "#/definitions/greeting",
+  "definitions": {"greeting": {
+    "additionalProperties": true,
+    "type": "object",
+    "required": ["todays-greeting"],
+    "properties": {"todays-greeting": {"type": "string"}},
+    "example": {"todays-greeting": "test-greeting"}
+  }}
+}

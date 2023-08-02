@@ -1,0 +1,17 @@
+#% Rest Connector Descriptor 1.0
+
+apiSpec:
+  url: /Users/rrudin/workspace/temp/api.raml
+
+connectorName: 'hello, world'
+connectorDescription: A greeting for the world
+
+connectorGav:
+  groupId: com.mulesoft.connectors
+  artifactId: helloworld
+  version: 1.0.0-SNAPSHOT
+
+baseUri:
+  type: parameter
+  value: http://localhost:8000/v1/search
+
